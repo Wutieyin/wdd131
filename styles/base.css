@@ -2,6 +2,7 @@
 body {
     display: grid;
     grid-template: auto 5fr auto / 1fr;
+    font-family: "Roboto", sans-serif;
 
 }
 
@@ -28,8 +29,8 @@ header {
 
 }
 
-.linkedin, .i-learn, 
-.scripture, .final-project {
+#linkedin, #i-learn, 
+#scripture, #final-project {
     color: white;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -37,8 +38,8 @@ header {
     padding-right: 2rem;
 }
 
-.linkedin:hover, .i-learn:hover, 
-.scripture:hover, .final-project:hover {
+#linkedin:hover, #i-learn:hover, 
+#scripture:hover, #final-project:hover {
 background-color: blue;
 }
 
