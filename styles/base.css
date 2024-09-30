@@ -3,7 +3,6 @@ body {
     display: grid;
     grid-template: auto 5fr auto / 1fr;
     font-family: "Roboto", sans-serif;
-
 }
 
 header {
@@ -19,6 +18,10 @@ header {
     text-align: center;
 }
 
+h1 {
+    font-weight: 400;
+}
+
 .navigation {
     display: flex;
     flex-direction: row;
@@ -29,8 +32,7 @@ header {
 
 }
 
-#linkedin, #i-learn, 
-#scripture, #final-project {
+.navigation a {
     color: white;
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -38,8 +40,7 @@ header {
     padding-right: 2rem;
 }
 
-#linkedin:hover, #i-learn:hover, 
-#scripture:hover, #final-project:hover {
+.navigation a:hover {
 background-color: blue;
 }
 
