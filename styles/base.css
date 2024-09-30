@@ -161,7 +161,7 @@ hr {
     margin-bottom: 0;
 }
 
-#p3 {
+#p3, #p4, #p5, #p6 {
     padding-left: 1rem;
     
 }
@@ -177,7 +177,7 @@ footer {
     margin-bottom: 0;  
 }
 
-#p4 {
+#p7 {
     margin-right: .5rem;
     padding-top: 0.00001rem;
     margin-top: 0;
