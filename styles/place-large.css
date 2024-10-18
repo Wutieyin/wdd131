@@ -1,0 +1,122 @@
+
+@media (min-width: 700px) {
+
+    header {
+        background-color: green;
+        padding-bottom: 1rem;
+        width: 100vw;
+        
+    
+    }
+    
+    h1 {
+     text-align: center;
+     padding: 1rem;
+     background-color: rgb(228, 10, 10);
+     color: white;
+     
+    }
+
+    .hero {
+        position: relative;
+        z-index: -10;
+        
+      
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+    #data {
+        position: absolute;top: 5vw; left: 3vw;
+        
+    }
+
+    hr {
+        display: none;
+    }
+
+    #weather {
+        position: absolute; top: 40vw; right: 3vw;
+    }
+
+    #data-h2 {
+        display: inline-block;
+        background-color: green;
+        position: absolute; top: .001rem; right: 2rem;
+        z-index: 1;
+        color: white;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        padding-left: 1rem;
+        padding-right: 8rem;
+    }
+
+    #emoji-1 {
+        font-size: 25px;
+        margin-left: 1rem;
+    }
+
+    .cloudy-skies {
+        display: none;
+    }
+
+    #data-info {
+        padding-top: 6rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        padding-bottom: 1rem;
+        display: inline-block;
+        background-color: white;
+        text-align: center;
+        position: relative;
+        opacity: 0.7;
+        display: flex;
+       
+
+        
+        
+    }
+
+    #weather-h2 {
+        display: inline-block;
+        background-color: green;
+        position: absolute; top: .2rem; 
+        z-index: 1;
+        color: white;
+        display: flex;
+        flex-direction: row;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        padding-left: .5rem;
+        padding-right: 1rem;
+        
+        
+    }
+
+    .cloudy-skies {
+        display: none;
+    }
+
+    #emoji-1 {
+        visibility: visible;
+    }
+
+    #weather-info {
+        padding-top: 4rem;
+        display: inline-block;
+        background-color: white;
+        text-align: center;
+        position: relative; left: .5rem;
+        opacity: 0.7;
+        display: flex;
+        padding-top: 5rem;
+        padding-bottom: 1rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        
+    }
+
+} 

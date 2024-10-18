@@ -1,0 +1,149 @@
+:root {
+	/* CSS HEX */
+--uranian-blue: #bce7fdff;
+--yale-blue: #0d3b66ff;
+--gray: #6a7b76ff;
+--fairy-tale: #f7c7dbff;
+
+/* CSS HSL */
+--uranian-blue: hsla(200, 94%, 86%, 1);
+--yale-blue: hsla(209, 77%, 23%, 1);
+--gray: hsla(162, 7%, 45%, 1);
+--fairy-tale: hsla(335, 75%, 87%, 1);
+}
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+footer {
+    background-color: #0d3b66ff;
+    text-align: center;
+    color: white;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100vw;
+}
+
+#copy-right {
+    margin-bottom: 0; 
+    text-align: center; 
+}
+
+#p7 {
+    margin-right: .5rem;
+    padding-top: 0.00001rem;
+    margin-top: 0;
+    color: yellow;
+     
+}
+
+
+.modification-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    margin-top: 0; 
+    padding-top: 0;
+ 
+}
+
+
+.p2 {
+    margin-top: 0;  
+}
+
+#demo {
+    margin-top: 0; 
+    color: yellow;  
+}
+
+
+@media (min-width: 320px) {
+
+    header {
+        background-color: green;
+        padding-bottom: 2rem;
+        width: 100vw;
+        
+    
+    }
+    
+    h1 {
+     text-align: center;
+     padding: 1rem;
+     background-color: rgb(228, 10, 10);
+     color: white;
+     
+    }
+
+
+    img {
+        width: 100vw;
+        height: auto;
+    }
+    
+    
+     picture {
+        background-color: red;
+    }
+    
+    #data-h2, #weather-h2 {
+        text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        align-content: center;
+        
+    }
+    
+   
+
+    #data-info, #weather-info {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-bottom: 3vw;
+        opacity: .6;
+        color: black;
+        
+    }
+
+    #emoji-1 {
+        visibility: hidden;
+    }
+
+    .cloudy-skies {
+        width: 5rem;
+        height: auto;
+    }
+    
+
+    #div-1, #div-4 {
+        text-align: right;
+    }
+    
+    #div-3, #div-6 {
+       text-align: left;
+       margin-left: 0.5rem;
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+ 
