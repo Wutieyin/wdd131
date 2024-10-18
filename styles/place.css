@@ -20,12 +20,13 @@
 	box-sizing: border-box;
 }
 
+:root 
 
 
 footer {
     background-color: #0d3b66ff;
     text-align: center;
-    color: white;
+    color: #bce7fdff;
     padding-top: 1rem;
     padding-bottom: 1rem;
     width: 100vw;
