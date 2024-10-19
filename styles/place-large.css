@@ -42,7 +42,7 @@
         position: absolute; top: 40vw; right: 3vw;
     }
 
-    #data-h2 {
+    .data-h2 {
         display: inline-block;
         background-color: green;
         position: absolute; top: .001rem; right: 2rem;
@@ -80,7 +80,7 @@
         
     }
 
-    #weather-h2 {
+    .weather-h2 {
         display: inline-block;
         background-color: green;
         position: absolute; top: .2rem; 
@@ -96,9 +96,11 @@
         
     }
 
-    .cloudy-skies {
-        display: none;
+    .weather-h2::after {
+        content:🌦️;
     }
+
+
 
     #emoji-1 {
         visibility: visible;
