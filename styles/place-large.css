@@ -54,10 +54,10 @@
         padding-right: 8rem;
     }
 
-    #emoji-1 {
+   /* #emoji-1 {
         font-size: 25px;
         margin-left: 1rem;
-    }
+    } */
 
     .cloudy-skies {
         display: none;
@@ -97,14 +97,15 @@
     }
 
     .weather-h2::after {
-        content:🌦️;
+        content:'🌦️';
+        font-size: 25px;
     }
 
 
 
-    #emoji-1 {
+   /* #emoji-1 {
         visibility: visible;
-    }
+    } */
 
     #weather-info {
         padding-top: 4rem;
