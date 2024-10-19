@@ -23,9 +23,9 @@
 
 
 footer {
-    background-color: #0d3b66ff;
+    background-color: var(--yale-blue);
     text-align: center;
-    color: #bce7fdff;
+    color: var(--uranian-blue);
     padding-top: 1rem;
     padding-bottom: 1rem;
     width: 100vw;
