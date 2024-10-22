@@ -34,20 +34,28 @@
     }
 }
 
-
-img {
-    animation: fade-up 0.5s 0.4s backwards;
-}
-
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 
+h1 {
+	text-align: center;
+}
+
+main {
+    margin: 0 auto;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
 img {
-  display:block;
-  animation: 
+  width: 100%;
+  background: #000;
+  animation: fade-up 15s 0.4s backwards; 
+	
 
 footer {
     background-color: var(--yale-blue);
