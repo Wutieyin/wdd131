@@ -107,7 +107,7 @@ h2 {
     
     /* Navigation ends here */
 
-        
+    @media (max-width: 476px) {        
 
 .res-grid {
     display: grid;
@@ -116,6 +116,7 @@ h2 {
     align-items: center;
     margin: auto;
 }
+    }
 
 
 
