@@ -93,7 +93,7 @@ h2 {
     .navigation a:hover {
         background-color: #bbb;
         color: #333;
-        font-weight: 700px;
+        font-weight: 700;
     }
     
     /* when the button is clicked - the open class is toggled (added/removed) */
