@@ -115,15 +115,19 @@ h2 {
     grid-gap: 2rem;
     align-items: center;
     margin: auto;
+    
 }
-    }
 
 
+
+
+}
 
 section {
     text-align: center;
     padding: 2rem;
     background-color: aliceblue;
+    
 }
 
 h3 {
@@ -149,8 +153,6 @@ img {
     box-shadow: 2px 5px 20px;
     margin-top: 1rem;
 }
-
-
 
 footer {
     margin-top: 1rem;

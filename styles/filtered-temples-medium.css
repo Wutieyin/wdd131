@@ -1,11 +1,12 @@
 
 
-@media (max-width: 700px) {
+@media (min-width: 431px) {
 
     .res-grid {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 2rem;
+        
         
         
     }
