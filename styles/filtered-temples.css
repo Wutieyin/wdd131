@@ -52,7 +52,7 @@ h2 {
     /* small view navigation */
     header {
         background-color: var(--uranian-blue);
-        
+       
     }
     
     #menu {
@@ -115,11 +115,10 @@ h2 {
     grid-gap: 2rem;
     align-items: center;
     margin: auto;
+   
+    
     
 }
-
-
-
 
 }
 
@@ -152,6 +151,7 @@ img {
     height: auto;
     box-shadow: 2px 5px 20px;
     margin-top: 1rem;
+    width: 373px;
 }
 
 footer {
@@ -161,6 +161,7 @@ footer {
     color: white;
 	padding-top: 1rem;
 	padding-bottom: 1rem;
+   
     
 }
 
