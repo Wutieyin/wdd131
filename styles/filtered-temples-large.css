@@ -1,5 +1,5 @@
 /* large view navigation ************************************/
-@media (min-width: 701px) {
+@media (min-width: 1024px) {
 	
     header {
         display: grid;
