@@ -1,0 +1,135 @@
+
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+   margin: 1vw 20vw; 
+}
+
+h1 {
+    color: white;
+    background-color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+form {
+    background-color: rgb(224, 221, 221);
+    padding: 20px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+   
+} 
+
+legend, .installation-date, .review {
+   margin-top: 30px;
+}
+
+legend, select, .product, textarea,
+.submit, .text, .date, .installation-date,
+.checkbox1, .username, .review, #review, p  {
+    margin-left: 2vw;
+}
+
+.asterisk {
+    font-size: 20px;
+    color: black;
+}
+
+@media (min-width: 700px) {
+
+ .radio-group {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+
+
+.sub-radio-group {
+    display: flex;
+    flex-direction: column;
+}
+
+
+}
+
+textarea {
+    height: 50px;
+}
+
+ select, textarea, .submit, .text, .date {
+    width: 94%;
+    padding: 8px;
+    margin-bottom: 20px;
+   
+}
+
+.submit {
+    font-size: x-large;
+}
+/*
+fieldset {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+*/
+
+
+footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+}
+
+
+footer {
+    margin-top: 1rem;
+    background-color: #0d3b66ff;
+    text-align: center;
+    color: white;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+   
+    
+}
+
+#copy-right {
+    margin-bottom: 0;  
+}
+
+#p7 {
+    margin-right: .5rem;
+    padding-top: 0.00001rem;
+    margin-top: 0;
+    color: bisque;
+     
+}
+
+
+.modification-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    margin-top: 0; 
+    padding-top: 0;
+ 
+}
+
+
+.p2 {
+    margin-top: 0;  
+}
+
+#demo {
+    margin-top: 0; 
+    color: bisque;  
+}

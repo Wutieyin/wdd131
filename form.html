@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Review Form</title>
+    <link rel="stylesheet" href="styles/form.css">
+    <script defer src="scripts/form.js"></script>
+</head>
+<body>
+
+    <h1>Product Review Form</h1>
+    <form action="review.html" method="get">
+
+        <!-- Product Name -->
+        <label class="product" for="product">Product Name:<span class="asterisk">&#42;</span></label>
+        <select id="product" name="product" required>
+            <option value="" disabled selected>Select a Product ...</option>
+        </select>
+
+        <!-- Overall Rating -->
+      
+        
+            <legend>Overall Rating:<span class="asterisk">&#42;</span>
+            </legend>
+             
+            <div class = "radio-group">
+                <div class="sub-radio-group">
+                    <label for="star">&starf;</label>
+                    <label for="radio"><input class="radio1" type="radio" name="rating" value="1" required></label>
+                </div>
+                <div class="sub-radio-group">
+                    <label for="star">&starf;&starf;</label>
+                    <label for="radio"><input class="radio1" type="radio" name="rating" value="2" required></label>
+                </div>
+                <div class="sub-radio-group">
+                    <label for="star">&starf;&starf;&starf;</label>
+                    <label for="radio"><input class="radio1" type="radio" name="rating" value="3" required></label>
+                </div>
+                <div class="sub-radio-group">
+                    <label for="star">&starf;&starf;&starf;&starf;</label>
+                    <label for="radio"><input class="radio1" type="radio" name="rating" value="4" required></label>
+                </div>
+                <div class="sub-radio-group">
+                    <label for="star">&starf;&starf;&starf;&starf;&starf;</label>
+                    <label for="radio"><input class="radio1" type="radio" name="rating" value="5" required></label>
+                </div>
+                 
+            </div>  
+        
+      
+
+        <!-- Date of Installation -->
+        <label class="installation-date" for="installation-date">Date of Installation:<span class="asterisk">&#42;</span>
+        </label>
+        <input class="date" type="date" id="installation-date" name="installation-date" required>
+
+        <!-- Useful Features -->
+        
+            <legend>Which features did you find useful in the product?</legend>
+            <p><i>(Check all that apply)</i></p>
+            <label><input class="checkbox1" type="checkbox" id="feature1" name="features" value="Feature 1"> Durability</label>
+            <label><input class="checkbox1" type="checkbox" id="feature2" name="features" value="Feature 2"> Ease of Use</label>
+            <label><input class="checkbox1" type="checkbox" id="feature3" name="features" value="Feature 3"> Performance</label>
+            <label><input class="checkbox1" type="checkbox" id="feature4" name="features" value="Feature 4"> Design</label>
+       
+
+        <!-- Written Review -->
+        <label class="review" for="review">Written Review <span>(Optional)</span></label>
+        <textarea id="review" name="review"></textarea>
+
+        <!-- User Name -->
+        <label class="username" for="username">Your Name <span>(Optional)</span></label>
+        <input class="text" type="text" id="username" name="username">
+
+        <!-- Form Submission Button -->
+        <input class="submit" type="submit" value="Post Review">
+    </form>
+
+    <footer>
+        <p id="copy-right">&#169;<span id="curYr"></span> &#127775; Utieyin Trevor Wyse &#127775; Nigeria</p>
+            <div class="modification-info">
+                <div class="p2">
+                    <p id="p7">This document was last modified:</p>
+                </div>
+                <div class="p2">
+                    <p id="demo"></p>
+                </div>
+        </div> 
+    </footer>
+
+</body>
+</html>
